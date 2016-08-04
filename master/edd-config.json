@@ -1,0 +1,7 @@
+{
+  "name": "Html",
+  "slug": "html",
+  "dependencies": {
+    "ralphowino/edd-base-library": "master"
+  }
+}

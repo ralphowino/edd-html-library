@@ -1,0 +1,19 @@
+description: an html file
+
+uses: base:file
+
+variables:
+  schema:
+    type: object
+    properties:
+      markup:
+        type: code
+
+    required:
+
+  form:
+    - '*'
+
+definitions:
+  file_name_suffix: '.html'
+  file_content: {{markup | safe}}
